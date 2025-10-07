@@ -32,33 +32,25 @@ const About = () => {
             aria-label="About the Summer School Card"
           >
             <p className="text-sm sm:text-base text-gray-800 dark:text-gray-300 leading-relaxed">
-              The 2025 Bhartiya Yuva Manch on
-              &ldquo;Bhartiya Yuva Manch 2025&rdquo; is a prestigious five-day program hosted by
-              Applications&rdquo; is a prestigious five-day program hosted by
-              Bharati Vidyapeeth&rsquo;s Institute of Computer Applications and
-              Management (BVICAM), New Delhi.
+              Bhartiya Yuva Manch 2025 is not just an event—it is a national platform for youth
+              empowerment, leadership, and innovation. Bringing together students from diverse regions,
+              it fosters meaningful dialogue, idea exchange, and collaborative problem-solving.
+              The activities inspire young leaders to think boldly, act responsibly,
+              and contribute actively to India’s growth story. By encouraging innovation, teamwork, and
+              visionary thinking, Bhartiya Yuva Manch 2025 empowers the youth to shape a progressive
+              and sustainable future for the nation.
               <br />
               <br />
-              This Bhartiya Yuva Manch is designed to immerse participants in the core
-              concepts, advanced methodologies, and latest research trends in
-              Data Science, with a special focus on its applications in
-              effective decision-making. The program features a balanced blend
-              of expert lectures&mdash;including sessions by Distinguished
-              Visiting Professors (DVPs)&mdash;interactive discussions, hands-on
-              exercises, and collaborative group activities.
+              Our Vision:
+              <br />
+
+              To inspire students to become confident, innovative, and socially responsible leaders of tomorrow.
               <br />
               <br />
-              Participants will explore a diverse range of topics, such as
-              Introduction to Data Science for Decision-Making, Machine Learning
-              for Predictive Analytics, Data Visualization for Storytelling,
-              Time Series Analysis and Forecasting, Deep Learning for
-              Classification and Regression, and Natural Language Processing for
-              Text Analysis. The summer school aims to create a vibrant and
-              collaborative environment where students, researchers, and
-              industry professionals can deepen their understanding, share
-              innovative ideas, and build professional networks that foster
-              ongoing research and development in the dynamic field of data
-              science.
+              Our Mission:
+              <br />
+
+              To cultivate confidence, entrepreneurship, and teamwork by engaging youth in hands-on learning and real-world challenges.
             </p>
           </motion.article>
         </div>

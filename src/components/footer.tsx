@@ -18,7 +18,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="mx-auto flex w-full flex-col items-start justify-between gap-4 md:w-1/2">
-            <ul className="flex w-full justify-between gap-2">
+            <ul className="flex w-full justify-center gap-5 underline">
               <li>
                 <Link
                   href="#about"
@@ -64,7 +64,7 @@ const Footer = () => {
 
                 <a
                 href="https://www.linkedin.com/in/shubham-shokeen-425b2b30a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                className="text-gray-400 underline hover:text-gray-300 px3"
+                className="text-gray-400 underline hover:text-gray-300 px-3"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -73,7 +73,7 @@ const Footer = () => {
 
                 <a
                 href="https://www.linkedin.com/in/rudraksh-dev?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                className="text-gray-400 underline hover:text-gray-300"
+                className="text-gray-400 underline hover:text-gray-300 px-3"
                 target="_blank"
                 rel="noopener noreferrer"
               >

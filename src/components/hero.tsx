@@ -65,15 +65,15 @@ export default function HeroSection() {
             </motion.div>
           </div> */}
 
-          <div className="space-y-4 pt-5 md:pt-5">
+          <div className="space-y-4 pt-3 md:pt-3">
             <span className="inline-block rounded-full bg-gradient-to-r from-blue-600 via-purple-500 to-pink-400 px-3 sm:px-4 py-1 text-base sm:text-lg font-bold text-white shadow-md">
-              28th July - 1st August 2025
+              11th - 12th September 2025
             </span>
 
             {/* Company Logos White Strip */}
               <div className="mt-8 w-full bg-white/80 bg-opacity-60 p-4 rounded-3xl shadow-inner flex flex-wrap items-center justify-center gap-6">
                 <img
-                  src="/ieee.png"
+                  src="/IEEE-Logo.png"
                   alt="IEEE"
                   className="h-12 w-32 object-fit"
                 />
@@ -83,7 +83,7 @@ export default function HeroSection() {
                   className="h-15 w-24 object-fit"
                 />
                 <img
-                  src="/ieeecschapter.png"
+                  src="/ieeecs.png"
                   alt="CS Chapter Logo"
                   className="h-12 w-32 object-fit"
                 />
@@ -98,7 +98,7 @@ export default function HeroSection() {
                   className="h-12 w-32 object-fit"
                 />
                 <img
-                  src="/ieecs.png"
+                  src="/Region10Logo.png"
                   alt="ieee cs"
                   className="h-12 w-32 object-fit"
                 />
