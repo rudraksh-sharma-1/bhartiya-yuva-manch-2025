@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from 'next/server';
+/* import { NextRequest, NextResponse } from 'next/server';
 import { sendEmail, verifyEmailConfig } from '@/lib/email';
 import { emailQueue, getQueueStatus } from '@/lib/email/queue';
 
@@ -93,4 +93,4 @@ export async function GET() {
       { status: 500 }
     );
   }
-} 
+}  */

@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from "next/server";
+/* import { NextRequest, NextResponse } from "next/server";
 import dbConnect from "@/lib/db";
 import User from "@/models/user.model";
 import { uploadToCloudinary } from "@/lib/cloudinary";
@@ -40,4 +40,4 @@ export async function POST(request: NextRequest) {
     console.error("Error uploading payment screenshot:", error);
     return NextResponse.json({ error: "Failed to upload payment screenshot" }, { status: 500 });
   }
-} 
+}  */

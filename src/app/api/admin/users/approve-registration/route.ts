@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from "next/server";
+/* import { NextRequest, NextResponse } from "next/server";
 import User from "@/models/user.model";
 import dbConnect from "@/lib/db";
 import { auth } from "@/auth";
@@ -112,4 +112,4 @@ export async function POST(request: NextRequest) {
 } 
 
 // This endpoint merges the logic of registration approval and payment link sending.
-// It accepts optional payment info and can be used for both admin approval and payment requests. 
+// It accepts optional payment info and can be used for both admin approval and payment requests.  */

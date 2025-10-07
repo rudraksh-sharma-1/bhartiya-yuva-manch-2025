@@ -1,4 +1,4 @@
-import NextAuth, { CredentialsSignin } from "next-auth"
+/* import NextAuth, { CredentialsSignin } from "next-auth"
 import Credentials from "next-auth/providers/credentials"
 // k/jhimport User from "@/models/user.model"
 import bcrypt from "bcrypt" 
@@ -61,4 +61,4 @@ export const { handlers, auth } = NextAuth({
 }
   },
   debug: process.env.NODE_ENV === "development",
-})
+}) */

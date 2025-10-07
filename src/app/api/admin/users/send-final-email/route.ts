@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from "next/server";
+/* import { NextRequest, NextResponse } from "next/server";
 import User from "@/models/user.model";
 import dbConnect from "@/lib/db";
 import { auth } from "@/auth";
@@ -66,4 +66,4 @@ export async function POST(request: NextRequest) {
         console.error("Error sending final notification email:", error);
         return NextResponse.json({ error: "Failed to send final notification email" }, { status: 500 });
     }
-} 
+}  */

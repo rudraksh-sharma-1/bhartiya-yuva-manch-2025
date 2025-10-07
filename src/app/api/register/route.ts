@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from "next/server";
+/* import { NextRequest, NextResponse } from "next/server";
 import dbConnect from "@/lib/db";
 import User from "@/models/user.model";
 import bcrypt from "bcrypt";
@@ -124,4 +124,4 @@ export async function POST(request: NextRequest) {
       { status: 500 }
     );
   }
-}
+} */

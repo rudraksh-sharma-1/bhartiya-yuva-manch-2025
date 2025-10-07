@@ -1,4 +1,4 @@
-import { NextResponse } from "next/server";
+/* import { NextResponse } from "next/server";
 import User from "@/models/user.model";
 import dbConnect from "@/lib/db";
 import { auth } from "@/auth";
@@ -21,4 +21,4 @@ export async function GET() {
         console.log(error);
         return NextResponse.json({ error: "Failed to fetch user" }, { status: 500 });
     }
-}
+} */

@@ -1,4 +1,4 @@
-"use client"; // Mark this file as a client component
+/* "use client"; // Mark this file as a client component
 
 import { SessionProvider, useSession } from "next-auth/react";
 import { ReactNode } from "react";
@@ -19,3 +19,4 @@ const SessionWrapper = ({ children }: { children: ReactNode }) => {
 };
 
 export default SessionWrapper;
+ */
