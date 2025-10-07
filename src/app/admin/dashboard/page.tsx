@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { User } from "@/types/user";
-import { UserDashboard } from "@/components/admin/user-dashboard";
+/* import { UserDashboard } from "@/components/admin/user-dashboard"; */
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Loader2, Shield, Users } from "lucide-react";
 
@@ -75,7 +75,7 @@ export default function AdminDashboardPage() {
           </div>
         </div>
 
-        <UserDashboard />
+        {/* <UserDashboard /> */}
       </div>
     </div>
   );
