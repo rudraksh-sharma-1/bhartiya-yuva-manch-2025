@@ -57,7 +57,7 @@
         className="bg-opacity-10 fixed inset-x-0 top-4 mx-auto flex max-w-6xl items-center justify-between rounded-full border border-white/20 bg-white/80 px-3 py-2 md:px-6 lg:px-8 backdrop-blur-md sm:px-4 dark:border-gray-700/30 dark:bg-black/80 z-50">
         <Link href={"/"}>
           <Image
-            className="h-10 w-12 md:w-15 rounded-full"
+            className="h-10 w-14 md:w-15 rounded-full"
             src="/bvicam.png"
             height={40}
             width={40}
@@ -84,11 +84,11 @@
           ))}
         </div>
         <div className="flex gap-2 lg:gap-4 items-center">
-          <Link
+          {/* <Link
             href="/login"
             className="hoverable px-4 md:px-5 py-1.5 rounded-md bg-primary text-white hover:bg-primary-hover dark:bg-gradient-to-r dark:from-blue-600 dark:via-blue-600 dark:to-blue-800 dark:hover:bg-blue-700 transition-colors shadow-md">
             Login
-          </Link>
+          </Link> */}
           <motion.button
             aria-label="Toggle theme"
             onClick={onToggleTheme}

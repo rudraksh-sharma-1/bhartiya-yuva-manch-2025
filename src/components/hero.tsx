@@ -67,40 +67,40 @@ export default function HeroSection() {
 
           <div className="space-y-4 pt-3 md:pt-3">
             <span className="inline-block rounded-full bg-gradient-to-r from-blue-600 via-purple-500 to-pink-400 px-3 sm:px-4 py-1 text-base sm:text-lg font-bold text-white shadow-md">
-              11th - 12th September 2025
+              11th - 12th November 2025
             </span>
 
             {/* Company Logos White Strip */}
               <div className="mt-8 w-full bg-white/80 bg-opacity-60 p-4 rounded-3xl shadow-inner flex flex-wrap items-center justify-center gap-6">
                 <img
-                  src="/IEEE-Logo.png"
+                  src="/LOGOS/Bharati_News.png"
                   alt="IEEE"
                   className="h-12 w-32 object-fit"
                 />
                 <img
-                  src="/ieeeds.png"
+                  src="/LOGOS/Radio_Bharati.png"
                   alt="IEEE DS"
-                  className="h-15 w-24 object-fit"
+                  className="h-15 w-30 object-fit"
                 />
                 <img
-                  src="/ieeecs.png"
+                  src="/LOGOS/BJIT.png"
                   alt="CS Chapter Logo"
-                  className="h-12 w-32 object-fit"
+                  className="h-15 w-34 object-fit"
                 />
                 <img
-                  src="/bvicam.png"
+                  src="/LOGOS/CRIIS.png"
                   alt="BVICAM"
-                  className="h-12 w-32 object-fit"
+                  className="h-15 w-34 object-fit"
                 />
                 <img
-                  src="/bvicamsb.png"
+                  src="/LOGOS/IJRMS.png"
                   alt="BVICAM SB"
-                  className="h-12 w-32 object-fit"
+                  className="h-15 w-34 object-fit"
                 />
                 <img
-                  src="/Region10Logo.png"
+                  src="/LOGOS/India_Com.png"
                   alt="ieee cs"
-                  className="h-12 w-32 object-fit"
+                  className="h-15 w-32 object-fit"
                 />
               </div>
           </div>
