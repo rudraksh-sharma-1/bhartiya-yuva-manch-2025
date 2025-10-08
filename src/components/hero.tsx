@@ -87,6 +87,11 @@ export default function HeroSection() {
                   alt="CS Chapter Logo"
                   className="h-15 w-34 object-fit"
                 />
+                  <img
+                    src="/LOGOS/Bharati_Times.png"
+                    alt="ieee cs"
+                    className="h-15 w-14 object-fit"
+                  />
                 <img
                   src="/LOGOS/CRIIS.png"
                   alt="BVICAM"
