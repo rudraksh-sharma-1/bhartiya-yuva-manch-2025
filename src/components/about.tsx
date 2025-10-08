@@ -1,6 +1,5 @@
 'use client';
 import React from "react";
-import { FaUsers, FaGraduationCap } from "react-icons/fa";
 import { Container } from "./container";
 import { motion } from "motion/react";
 import { easeOut } from "framer-motion";
@@ -31,7 +30,7 @@ const About = () => {
             tabIndex={0}
             aria-label="About the Summer School Card"
           >
-            <p className="text-sm sm:text-base text-gray-800 dark:text-gray-300 leading-relaxed">
+            <p className="text-sm sm:text-base text-gray-800 dark:text-gray-300 leading-relaxed mb-8">
               Bhartiya Yuva Manch 2025 is not just an event—it is a national platform for youth
               empowerment, leadership, and innovation. Bringing together students from diverse regions,
               it fosters meaningful dialogue, idea exchange, and collaborative problem-solving.
@@ -39,19 +38,30 @@ const About = () => {
               and contribute actively to India’s growth story. By encouraging innovation, teamwork, and
               visionary thinking, Bhartiya Yuva Manch 2025 empowers the youth to shape a progressive
               and sustainable future for the nation.
-              <br />
-              <br />
-              Our Vision:
-              <br />
-
-              To inspire students to become confident, innovative, and socially responsible leaders of tomorrow.
-              <br />
-              <br />
-              Our Mission:
-              <br />
-
-              To cultivate confidence, entrepreneurship, and teamwork by engaging youth in hands-on learning and real-world challenges.
             </p>
+
+            <div className="flex flex-col md:flex-row md:justify-between gap-8 md:gap-12 items-stretch text-center">
+              <div className="flex-1 bg-white/50 dark:bg-gray-700 rounded-lg p-6 shadow-inner">
+                <h3 className="text-lg sm:text-xl font-bold text-purple-600 dark:text-purple-300 mb-2">
+                  Our Vision
+                </h3>
+                <p className="text-sm sm:text-base text-gray-800 dark:text-gray-300 leading-relaxed">
+                  To inspire students to become confident, innovative, and socially responsible leaders of tomorrow.
+                </p>
+              </div>
+
+              <div className="hidden md:block w-px bg-gray-300 dark:bg-gray-600" />
+              <div className="block md:hidden h-px bg-gray-300 dark:bg-gray-600" />
+              
+              <div className="flex-1 bg-white/50 dark:bg-gray-700 rounded-lg p-6 shadow-inner">
+                <h3 className="text-lg sm:text-xl font-bold text-purple-600 dark:text-purple-300 mb-2">
+                  Our Mission
+                </h3>
+                <p className="bold text-sm sm:text-base text-gray-800 dark:text-gray-300 leading-relaxed">
+                  To cultivate confidence, entrepreneurship, and teamwork by engaging youth in hands-on learning and real-world challenges.
+                </p>
+              </div>
+            </div>
           </motion.article>
         </div>
       </Container>
