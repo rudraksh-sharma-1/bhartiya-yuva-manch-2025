@@ -13,45 +13,32 @@ import {
 const faqData = [
   {
     id: "1",
-    question: "What is the Region 10 CS Summer School 2025 about?",
+    question: "What languages can I use to participate?",
     answer:
-      'The Summer School focuses on "Data Science for Decision-Making: Methodologies and Applications". It offers a deep dive into modern data science tools and techniques, emphasizing how they support effective decision-making across domains.',
+      'You can participate in both English and Hindi. There is no language barrier.',
   },
   {
     id: "2",
-    question: "Who can attend this summer school?",
+    question: "Who can take part in the competition?",
     answer:
-      "Registered Fulltime Students and preference will be given to 3rd year and final year students. IEEE and IEEE Computer Society members",
+      "Anyone! Whether you are an open college student, a school student, or a student of any other college, you are welcome to participate.",
   },
   {
     id: "3",
-    question: "What topics will be covered during the five-day program?",
-    answer: [
-      "Introduction to Data Science for Decision-Making",
-      "Machine Learning for Predictive Analytics",
-      "Data Visualization for Storytelling",
-      "Time Series Analysis and Forecasting",
-      "Deep Learning for Classification and Regression",
-      "Natural Language Processing for Text Analysis",
-    ],
+    question: "What is the age requirement?",
+    answer: 'Participants must be between 15 and 25 years old.',
   },
   {
     id: "4",
-    question: "Will I receive a certificate after completion?",
+    question: "Do I need any special qualifications to join?",
     answer:
-      "Yes, all participants who attend the full program and complete required activities will receive an IEEE Summer School Participation Certificate.",
+      "No special qualifications are required. All you need is enthusiasm and interest!",
   },
   {
     id: "5",
-    question: "How can I register for the program?",
+    question: "How can I register for the competition?",
     answer:
-      "Registration details, including the form and fee structure, will be available on the official IEEE BVICAM Summer School 2025 website.",
-  },
-  {
-    id: "6",
-    question: "Will I need to bring my own laptop?",
-    answer:
-      "Yes, for hands-on sessions, it's highly recommended that participants bring their personal laptops with required software pre-installed (details will be shared post-registration).",
+      "You can register by clicking on the “Register Now” button on our website and filling out the form.",
   },
 ];
 
