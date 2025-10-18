@@ -99,14 +99,14 @@ export function ExpandableCardDemo() {
                     </motion.p>
                   </div>
 
-                  <motion.a
-                    layoutId={`button-${active.title}-${id}`}
+                  <a
+                    /* layoutId={`button-${active.title}-${id}`} */
                     href={active.ctaLink}
                     target="_blank"
                     className="rounded-full bg-green-500 px-4 py-3 text-sm font-bold text-white"
                   >
                     Register
-                  </motion.a>
+                  </a>
                 </div>
                 <div className="relative px-4 pt-4">
                   <motion.div
@@ -114,7 +114,7 @@ export function ExpandableCardDemo() {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
-                    className="flex h-50 md:h-40 flex-col items-start gap-4 overflow-y-auto pb-10 text-xs text-neutral-600 [-ms-overflow-style:none] [-webkit-overflow-scrolling:touch] [mask:linear-gradient(to_bottom,white,white,transparent)] [scrollbar-width:none] md:max-h-80 md:text-sm lg:max-h-96 lg:text-base dark:text-neutral-400"
+                    className="flex h-100 md:h-60 flex-col items-start gap-4 overflow-y-auto pb-10 text-xs text-neutral-600 [-ms-overflow-style:none] [-webkit-overflow-scrolling:touch] [mask:linear-gradient(to_bottom,white,white,transparent)] [scrollbar-width:none] md:max-h-80 md:text-sm lg:max-h-96 lg:text-base dark:text-neutral-400"
                   >
                     {typeof active.content === "function"
                       ? active.content()
@@ -159,12 +159,12 @@ export function ExpandableCardDemo() {
                 </motion.p>
               </div>
             </div>
-            <motion.button
-              layoutId={`button-${card.title}-${id}`}
+            <button
+              /* layoutId={`button-${card.title}-${id}`} */
               className="mt-4 rounded-full bg-gray-100 px-4 py-2 text-sm font-bold text-black hover:bg-green-500 hover:text-white md:mt-0"
             >
               {card.ctaText}
-            </motion.button>
+            </button>
           </motion.div>
         ))}
       </ul>
