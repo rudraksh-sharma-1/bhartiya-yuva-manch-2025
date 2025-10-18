@@ -10,6 +10,7 @@ import GallerySection from "@/components/gallery";
 import Footer from "@/components/footer";
 import Prizes from "@/components/prizes";
 import TeamCarousel from "@/components/TeamCarousel";
+import EventRegistration from "@/components/eventRegistration";
 
 export default function HomePage() {
   return (
@@ -24,6 +25,7 @@ export default function HomePage() {
       {/* <RegistrationGuidelines/> */}
       <GallerySection />
       {/* <Schedule/> */}
+      <EventRegistration />
       <FAQ />
       <VenuePage />
       <Footer />

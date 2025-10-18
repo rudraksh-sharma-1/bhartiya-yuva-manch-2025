@@ -93,7 +93,7 @@ export default function GallerySection() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent mb-4">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl py-2 font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent mb-4">
             Our Team Gallery
           </h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
